@@ -1,5 +1,6 @@
 class ChangeTables < ActiveRecord::Migration[5.2]
   def change 
-    change_column :costumes, :, :datetime 
+    rename_column :costumes, :url, :image_url
+    remove_column :costumes. 
   end
 end
